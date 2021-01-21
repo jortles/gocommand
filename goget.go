@@ -17,8 +17,6 @@ var (
 	cyan   = color.New(color.FgCyan).Add(color.Bold)
 )
 
-//testentry
-
 // WriteCounter counts the number of bytes written to it. It implements to the io.Writer interface
 // and we can pass this into io.TeeReader() which will report progress on each write cycle
 type WriteCounter struct {
